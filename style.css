@@ -212,25 +212,24 @@ body {
   transform: scale(1.05);
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .quote-box {
     width: 90%;
     margin: auto;
   }
 
+  .input-box {
+    font-size: 18px;
+    padding: 10px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+
   .input-box::placeholder {
     color: transparent;
   }
-
-  .input-box {
-    font-size: 18px;
-    padding: 16px;
-  }
-
-  .quote-button {
-    width: 100%;
-  }
 }
+
 
 .quote-button:hover {
   transform: scale(1.05) translateY(-2px);
